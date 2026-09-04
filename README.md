@@ -62,7 +62,7 @@ Các thư viện khác được import trực tiếp (giả định có sẵn tr
 Không có script/CLI riêng — toàn bộ pipeline chạy tuần tự trong 1 file (bản `.py` được export từ notebook gốc). Chạy trực tiếp:
 
 ```bash
-python 52300102_52300107.py
+python botsort-pedestrian-tracking.py
 ```
 
 Yêu cầu trước khi chạy:
@@ -100,7 +100,7 @@ Tổng cộng loại 363 box (~5.5% raw detections) qua cả 2 giai đoạn.
 
 ## Cấu trúc thư mục
 
-Repo hiện chỉ gồm 1 file notebook (`52300102_52300107.ipynb`) và bản export `.py` tương ứng (`52300102_52300107.py`) — không có cấu trúc thư mục con nào khác trong repo. Các thư mục dưới đây được code tạo ra khi chạy (trong `/kaggle/working`), không phải cấu trúc có sẵn:
+Repo hiện chỉ gồm 1 file notebook (`botsort-pedestrian-tracking.ipynb`) và bản export `.py` tương ứng (`botsort-pedestrian-tracking.py`) — không có cấu trúc thư mục con nào khác trong repo. Các thư mục dưới đây được code tạo ra khi chạy (trong `/kaggle/working`), không phải cấu trúc có sẵn:
 
 ```
 /kaggle/working/                        # WORK_DIR — tạo khi chạy
@@ -116,8 +116,3 @@ Repo hiện chỉ gồm 1 file notebook (`52300102_52300107.ipynb`) và bản ex
 └── eval_results.txt                    # EVAL_PATH — kết quả HOTA/MOTA/IDF1
 ```
 
-[CẦN BỔ SUNG] Cấu trúc dataset input (`/kaggle/input/datasets/duyl8787/mot17-02-frcnn/MOT17-02-FRCNN/{img1,gt}`) là dataset Kaggle bên ngoài, không thuộc repo này.
-
-## License
-
-[CẦN BỔ SUNG] — Không có file license trong repo. Lưu ý: dataset MOT17 có điều khoản sử dụng riêng (không thuộc phạm vi license của code này); model YOLOv8 (Ultralytics) sử dụng license AGPL-3.0 hoặc license thương mại riêng của Ultralytics — cần kiểm tra lại điều khoản áp dụng cho mục đích sử dụng cụ thể.

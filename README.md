@@ -100,7 +100,7 @@ Tổng cộng loại 363 box (~5.5% raw detections) qua cả 2 giai đoạn.
 
 ## Cấu trúc thư mục
 
-Repo hiện chỉ gồm 1 file notebook (`botsort-pedestrian-tracking.ipynb`) và bản export `.py` tương ứng (`botsort-pedestrian-tracking.py`) — không có cấu trúc thư mục con nào khác trong repo. Các thư mục dưới đây được code tạo ra khi chạy (trong `/kaggle/working`), không phải cấu trúc có sẵn:
+Repo hiện chỉ gồm 1 file notebook (`botsort-pedestrian-tracking.ipynb`) — không có cấu trúc thư mục con nào khác trong repo. Các thư mục dưới đây được code tạo ra khi chạy (trong `/kaggle/working`), không phải cấu trúc có sẵn:
 
 ```
 /kaggle/working/                        # WORK_DIR — tạo khi chạy
